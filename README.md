@@ -27,6 +27,10 @@ The Multi-Head Self-Attention mechanism in ViT models introduces quadratic compl
 ```
 /VisionTransformer-Optimization
 │
+├── Project presentation
+│
+├── ImageNet_result
+│
 ├── FOOD101_result
 │
 ├── CIFAR_10_result
