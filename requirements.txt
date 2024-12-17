@@ -1,0 +1,13 @@
+torch==2.0.1              # PyTorch for implementing Vision Transformer and optimizations
+torchvision==0.15.2       # PyTorch vision package
+numpy==1.24.3             # Numerical operations and decompositions
+scipy==1.10.1             # Advanced mathematical operations (SVD, PCA, Cholesky)
+pandas==2.0.1             # Data management and results logging
+matplotlib==3.7.1         # Visualization for plots and comparisons
+seaborn==0.12.2           # Enhanced data visualizations
+tqdm==4.65.0              # Progress bar for processes
+jupyterlab==4.0.2         # For Jupyter notebooks and experiments
+ipykernel==6.24.0         # Jupyter notebook kernel
+einops==0.6.1             # Tensor operations (reshaping, merging for transformers)
+tensorly==0.8.0           # Tensor decomposition library
+opencv-python==4.7.0.72   # Image processing
