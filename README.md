@@ -27,20 +27,13 @@ The Multi-Head Self-Attention mechanism in ViT models introduces quadratic compl
 ```
 /VisionTransformer-Optimization
 │
-├── data/                         # Input datasets for training and evaluation
-├── src/                          # Source code
-│   ├── attention_optimization.py # Core code for MSA optimization
-│   ├── svd_decomposition.py      # SVD implementation
-│   ├── cholesky_optimization.py  # Cholesky decomposition implementation
-│   ├── pca_optimization.py       # PCA for attention matrices
-│   ├── tensor_decomposition.py   # Tensor decomposition techniques
+├── FOOD101_result
 │
-├── notebooks/                    # Jupyter Notebooks for analysis and experiments
-│   ├── ViT_optimization_demo.ipynb
+├── CIFAR_10_result
 │
-├── results/                      # Results, logs, and model performance metrics
-│   ├── attention_comparison.png  # Visual comparison before/after optimization
-│   └── metrics.csv               # Numerical performance results
+├── CIFAR_100_result
+│
+├── SVHN_(Street_View_House_Numbers)_result
 │
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
