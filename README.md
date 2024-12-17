@@ -2,7 +2,7 @@
 # **Vision Transformer Optimization with Decomposition Methods**
 
 ## **Overview**  
-This project focuses on optimizing Vision Transformer (ViT) models by reducing the computational cost of the **Multi-Head Self-Attention (MSA)** mechanism. We leverage advanced mathematical techniques, including **Cholesky decomposition**, **Singular Value Decomposition (SVD)**, **Principal Component Analysis (PCA)**, and **Tensor Decomposition**, to enhance efficiency, scalability, and numerical stability.
+This project focuses on optimizing Vision Transformer (ViT) models by reducing the computational cost of the **Multi-Head Self-Attention (MSA)** mechanism. We leverage advanced mathematical techniques, including **Cholesky decomposition**, **Singular Value Decomposition (SVD)**, **Principal Component Analysis (PCA)**, to enhance efficiency, scalability, and numerical stability.
 
 ---
 
@@ -10,7 +10,6 @@ This project focuses on optimizing Vision Transformer (ViT) models by reducing t
 - **Cholesky Decomposition**: Simplifies positive-definite matrix operations for computational efficiency.  
 - **Low-Rank SVD Approximation**: Reduces attention matrix rank, retaining only the most significant components.  
 - **PCA for Dimensionality Reduction**: Compresses attention matrices while preserving essential information.  
-- **Tensor Decomposition**: Optimizes higher-dimensional representations for improved memory and computational performance.
 
 ---
 
